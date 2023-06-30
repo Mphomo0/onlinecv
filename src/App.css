@@ -1,38 +1,263 @@
-.App {
-  text-align: center;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fafafa;
+  overflow-x: hidden;
+  position: relative;
+  background: url(./images/bg.png) #fafafa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile {
+  background-color: white;
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile_name {
+  line-height: 18px;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile_name .name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.profile_name .label {
+  font-size: 13px;
+  color: #777;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile_image {
+  margin-top: -5px;
+  width: 100%;
+}
+
+.profile_image img {
+  width: 100%;
+  transform: skewY(-4deg);
+
+}
+.profile-info {
+  margin-top: 20px;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.p-btn {
+  margin: 18px 98px 30px;
+  display: block;
+}
+
+.socials {
+  margin-top: 18px;
+  margin: 10px 66px 10px;
+}
+
+.socials svg {
+  width: 40px;
+  height: 30px
+}
+
+.socials ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socials li {
+  float: left;
+}
+
+.blue-column {
+  background-color: white;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.about-section svg,
+.education-section svg,
+.work-section svg,
+.skills-section svg {
+  color: green;
+  width: 30px;
+  height: 20px;
+}
+
+.about-section {
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 51px;
+}
+
+.education-section {
+  margin-left: 20px;
+}
+
+.education-section h1 {
+  margin-left: 20px;
+  font-weight:bolder;
+  font-size: large;
+}
+.education-section h6 {
+  color:#777
+}
+
+.timeline {
+  position: relative;
+  border-color: rgba(160, 175, 185, .15);
+  padding: 0;
+  margin: 0
+}
+
+
+.circle {
+  border-radius: 500px
+}
+
+
+.timeline {
+  position: relative;
+  border-color: rgba(160, 175, 185, .15);
+  padding: 0;
+  margin: 0
+}
+
+.tl-item {
+  border-radius: 3px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.tl-item>* {
+  padding: 18px
+}
+
+.tl-item:last-child .tl-dot:after {
+  display: none
+}
+
+.tl-item.active .tl-dot:before {
+  border-color: green;
+  box-shadow: 0 0 0 4px rgba(68, 139, 255, .2)
+}
+
+.tl-item:last-child .tl-dot:after {
+  display: none
+}
+
+.tl-item.active .tl-dot:before {
+  border-color: green;
+  box-shadow: 0 0 0 4px rgba(68, 139, 255, .2)
+}
+
+.tl-dot {
+  position: relative;
+  border-color: rgba(160, 175, 185, .15)
+}
+
+.tl-dot:after,
+.tl-dot:before {
+  content: '';
+  position: absolute;
+  border-color: inherit;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.tl-dot:after {
+  width: 0;
+  height: auto;
+  top: 35px;
+  bottom: -15px;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-radius: 0
+}
+
+tl-item.active .tl-dot:before {
+  border-color: green;
+  box-shadow: 0 0 0 4px rgba(68, 139, 255, .2)
+}
+
+.tl-dot {
+  position: relative;
+  border-color: green
+}
+
+.tl-dot:after,
+.tl-dot:before {
+  content: '';
+  position: absolute;
+  border-color: inherit;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.tl-dot:after {
+  width: 0;
+  height: auto;
+  top: 55px;
+  bottom: -15px;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-radius: 0
+}
+
+.tl-content p:last-child {
+  margin-bottom: 0
+}
+
+.tl-date {
+  font-size: .85em;
+  margin-top: -6px;
+  margin-bottom: 15px;
+}
+
+.work-section {
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+h2  {
+  font-family: 'Rubik', sans-serif;
+  font-size: 100px;
+ }
+
+ .blue-column.col {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.skills-section {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.skills-section  ul {
+  list-style: none;
+}
+
+.skills-section  li {
+  float: left;
+  padding: 2px;
+  
 }

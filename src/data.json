@@ -1,0 +1,121 @@
+{
+    "basics": {
+      "name": "Mpho Moipolai",
+      "label": "Web Designer/Developer",
+      "picture": "https://avatars.githubusercontent.com/u/7724442?v=4",
+      "email": "mphomoipoolai1@gmail.com",
+      "phone": "0793676883",
+      "website": "www.mpho-moipolai.co.za",
+      "summary": "I am an experienced Web Designer/Developer with a demonstrated history of working in the marketing and advertising industry. Skilled in Customer Service, UX Design, WordPress, Javascript, Reactjs, Nodejs, Photoshop, Adobe Illustrator and Adobe XD. Strong engineering professional with a certificate focused in Web designer/developer from ATTI College and Hyperion Dev.",
+      "location": {
+        "address": "Johannesburg",
+        "postalCode": "2194",
+        "city": "Johannesburg",
+        "countryCode": "ZA",
+        "region": "Gauteng"
+      },
+      "profiles": [
+        {
+          "network": "Twitter",
+          "username": "gift187",
+          "url": "https://twitter.com/gift187"
+        },
+        {
+          "network": "Github",
+          "username": "Mphomo0",
+          "url": "https://github.com/Mphomo0"
+        },
+        {
+            "network": "Facebook",
+            "username": "Mphomo0",
+            "url": "https://www.facebook.com/mbmoipolai"
+        },
+        {
+            "network": "LinkedIn",
+            "username": "Mphomo0",
+            "url": "https://www.linkedin.com/in/mpho-moipolai-26b06286/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "AutoTrader",
+        "position": "Digital Designer",
+        "website": "https://www.autotrader.co.za",
+        "startDate": "04/2017",
+        "endDate": "present",
+        "summary": "I am currently working as a Digital Designer at AutoTrader and have been responsible with designing logo and banner and other marketing materials, and also creating websites for clients and microsites for the company",
+        "highlights": []
+      },
+      {
+        "company": "Chillies Software",
+        "position": "Junior Web Developer",
+        "website": "https://chillies.co.za/",
+        "startDate": "06/2016",
+        "endDate": "08/2017",
+        "summary": "During my time at Chillies I worked on a couple of projects using wordpress and php",
+        "highlights": []
+      },
+      {
+        "company": "Easy Web Solve",
+        "position": "Freelance Web Designer",
+        "website": "",
+        "startDate": "01/2013",
+        "endDate": "03/2014",
+        "summary": "I was designing websites logos and other marketing materials for Easy Web Solve clients.",
+        "highlights": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Atti College",
+        "area": "Graphic Design and Web development",
+        "studyType": "Certificate",
+        "startDate": "01/2011",
+        "endDate": "12/2013",
+        "gpa": "",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Front End Development",
+        "level": "Master",
+        "keywords": [
+          "HTML5",
+          "CSS",
+          "Javascript",
+          "ES6",
+          "ES7",
+          "ES8",
+          "Reactjs",
+          "jQuery",
+          "MS Sql",
+          "Cpanel",
+          "WHM",
+          "Github",
+          "Wordpress",
+          "User Experience",
+          "Bootstrap",
+          "Mongodb",
+          "JSON",
+          "Bulma",
+          "TailwindCss",
+          "Netlify",
+          "Photoshop",
+          "Adobe XD",
+          "Illustrator",
+          "Nodejs",
+          "php",
+          "MySQL",
+          "Git",
+          "CMS",
+          "ResponsiveWebDesign",
+          "Heroku",
+          "Wireframing"
+        ]
+      }
+    ]
+  }
